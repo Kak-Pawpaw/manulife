@@ -193,7 +193,7 @@ export default function App() {
       <header className="bg-brand-darker p-4 sticky top-0 z-50 flex justify-between items-center border-b border-white/10">
         <h1 className="font-bold text-lg text-brand-yellow tracking-wide">Manulife</h1>
         <div className="bg-brand-cream text-brand-dark text-xs px-3 py-1 rounded-full font-bold shadow-sm">
-          Sistem Duit: Bayar
+          Upgrade VIP
         </div>
       </header>
 
