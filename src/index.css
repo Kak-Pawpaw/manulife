@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-yellow: #F2B824;
+  --color-brand-green: #6E9A7B;
+  --color-brand-cream: #FFFDF9;
+  --color-brand-dark: #1E3525;
+  --color-brand-darker: #15261a; /* Untuk variasi bayangan/header */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-dark);
+    color: var(--color-brand-cream);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Scrollbar dihilangkan agar desain gamifikasi terlihat bersih seperti aplikasi native */
+::-webkit-scrollbar {
+  display: none;
+}
